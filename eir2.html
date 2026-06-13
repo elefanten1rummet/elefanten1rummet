@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link id="icon" href="fuct.jpg">
+    <title> eir. </title>
+    <link href="StyleSheet.css" type="text/css" rel="Stylesheet"
+</head>
+</body>
+    <div style="position:fixed;top:15px;left:45vw;;font-family:Lucida Console;">
+        	
+    <body onload="clock();" >
+      
+            <b id="t-0">00/00/0000</b>
+            
+            <b id="t-2">00:00:00</b>
+        </div>
+
+    </body>
+	<body>
+	<div>
+	
+        <h1 class="kaften" style="color:white;"> eir </h1>
+		
+		<h2 class="shop"><a class="link" href="https://www.youtube.com/watch?v=oFL5k6Pl2qQ" target=”_blank”> shop </h2>
+		
+		<h2 class="social"><a class="link" href="https://www.instagram.com/eir.world/" target=”_blank”> 
+		instagram 
+		</a></h2>
+		
+		<h2 class="discord"><a class="link" href="https://www.youtube.com/watch?v=CkcFtBIgjQE&t=2095s&ab_channel=Wendigoon" target=”_blank”> 
+		discord 
+		</a></h2>
+		
+		
+		<h2 class="shh"> <a class="shh2" href="https://youtu.be/OOiOkm3bUZg?si=AziK0j0i3VxjAu2H" target="_blank">
+		how did you find this
+	    </a></h2>
+		<h2 class="about"> <a class="link" href="AboutUs/AboutUs.html"> about </a></h2>
+		</div>
+		<body>
+		<div>
+		
+	
+		</div>
+		</body>
+         <html>
+<head> </head>
+</body>
+<body onload=display_ct();>
+  <span id='ct' ></span>
+  
+  <div class="tilt-card">
+    <img src="eir.image/eirwobble.gif" alt="">
+</div>
+
+<style>
+.tilt-card {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.15s ease;
+	 margin-left: auto;
+    margin-right: 802px;
+	margin-top: 100px;
+	transition: transform 0.1s linear;
+}
+
+.tilt-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+</style>
+
+<script>
+const card = document.querySelector(".tilt-card");
+
+window.addEventListener("mousemove", (e) => {
+
+    const x = e.clientX;
+    const y = e.clientY;
+
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+
+    const rotateY = (x - centerX) / 20;
+    const rotateX = -(y - centerY) / 20;
+
+    card.style.transform =
+        `perspective(1000px)
+         rotateX(${rotateX}deg)
+         rotateY(${rotateY}deg)`;
+});
+</script>
+</body>
+	<script>
+	function clock(){
+    window.rt=1000;r=0;
+    document.getElementById('t-0').textContent=new Date().toLocaleDateString(); // today
+    var m=setInterval(function(){
+        if(r>84600){clearInterval(m);}
+        r++;
+        document.getElementById('t-2').textContent=new Date().toLocaleTimeString(); // clock
+    }, window.rt);
+}
+			</script>
+        </body>
+		</html>  
