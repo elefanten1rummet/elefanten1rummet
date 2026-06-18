@@ -132,7 +132,7 @@ body {
    {
 	position: fixed;
 	font-size: 33px; 
-    top: 430px;
+    top: 440px;
 	left: 50vw;
 	transform: translateX(-50%);
 	z-index: 2;
